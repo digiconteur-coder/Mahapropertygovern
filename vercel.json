@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "framework": null,
+  "buildCommand": "pnpm install && pnpm --filter @workspace/bharat-property run build",
+  "installCommand": "echo 'install handled in buildCommand'",
+  "functions": {
+    "api/serve.js": {
+      "includeFiles": "artifacts/bharat-property/static-build/**,artifacts/bharat-property/server/templates/**,artifacts/bharat-property/app.json"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/serve" }
+  ]
+}
