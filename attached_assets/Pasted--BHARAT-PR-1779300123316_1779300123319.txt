@@ -1,0 +1,520 @@
+******************************************************************************************
+BHARAT PROPERTY CARD™
+PROPERTY GOVERNANCE ACTION HUB
+REPLIT METADATA UI/UX + FLOW ARCHITECTURE
+VERSION: IAS-GRADE GOVERNANCE STRUCTURE
+-------------------------------------------------------------------------------------------
+OBJECTIVE:
+Replace random proptech feature buttons with legally logical user-intent workflows.
+
+IMPORTANT:
+- Every button = legal/property journey
+- AI remains embedded silently
+- Governance-first architecture
+- Rural + Urban India compatible
+- Sequential citizen workflows
+******************************************************************************************/
+
+export const PROPERTY_ACTION_HUB = {
+
+dashboardType: "Intent Driven Property Governance",
+
+primaryActions: [
+
+/******************************************************************************************
+1. SELL / TRANSFER PROPERTY
+******************************************************************************************/
+
+{
+id: "sell_transfer",
+title: "Sell / Transfer Property",
+icon: "Send",
+color: "#2563EB",
+
+objective:
+"Enable secure transfer, sale, inheritance or mandate-based execution of property.",
+
+userIntentExamples: [
+"Sell my flat",
+"Transfer property to family",
+"Give mandate to broker",
+"List property publicly",
+"Find institutional buyer"
+],
+
+flow: [
+
+{
+step: 1,
+title: "Select Property",
+actions: [
+"Show verified owned properties",
+"Display ownership %",
+"Show litigation warning",
+"Show encumbrance status",
+"Display co-owner dependency"
+]
+},
+
+{
+step: 2,
+title: "Choose Transfer Type",
+
+options: [
+{
+type: "public_sale",
+label: "Public Sale",
+description:
+"Distribute property to marketplaces and verified brokers."
+},
+
+{
+type: "private_transfer",
+label: "Private Transfer",
+description:
+"Direct ownership transfer to known buyer."
+},
+
+{
+type: "family_transfer",
+label: "Family Transfer",
+description:
+"Gift deed / inheritance / nominee transfer."
+},
+
+{
+type: "developer_mandate",
+label: "Developer / Redevelopment",
+description:
+"Enable builders and redevelopment entities to evaluate property."
+},
+
+{
+type: "fractional_sale",
+label: "Fractional Ownership",
+description:
+"Sell partial stake to investors."
+}
+]
+},
+
+{
+step: 3,
+title: "Distribution Layer",
+
+distributionChannels: [
+
+{
+layer: 1,
+name: "Public Platforms",
+platforms: [
+"99acres",
+"MagicBricks",
+"NoBroker"
+]
+},
+
+{
+layer: 2,
+name: "Verified Broker Network",
+
+brokerRankingFactors: [
+"Success rate",
+"Locality expertise",
+"Fraud history",
+"Commission %",
+"Transaction speed",
+"Customer reviews"
+]
+},
+
+{
+layer: 3,
+name: "Institutional Buyers",
+
+buyers: [
+"Family Offices",
+"CP Funds",
+"Developers",
+"HNIs",
+"Investor Syndicates"
+]
+}
+]
+},
+
+{
+step: 4,
+title: "AI Governance Assistant",
+
+aiRecommendations: [
+"Expected sale value",
+"Suggested pricing",
+"Best selling route",
+"Risk warnings",
+"Top ranked broker",
+"Market demand",
+"Time-to-sell estimate"
+]
+},
+
+{
+step: 5,
+title: "Governance & Compliance",
+
+automations: [
+"Create audit trail",
+"Track negotiations",
+"Generate transfer checklist",
+"Consent approvals",
+"Escrow integration",
+"Document version lock"
+]
+}
+]
+},
+
+/******************************************************************************************
+2. FAMILY & OWNERSHIP
+******************************************************************************************/
+
+{
+id: "family_ownership",
+title: "Family & Ownership",
+icon: "Users",
+color: "#10B981",
+
+objective:
+"Manage co-owners, legal heirs, nominees, family transfers and ownership restructuring.",
+
+userIntentExamples: [
+"Add wife as co-owner",
+"Create nominee",
+"Split property between children",
+"Transfer after death",
+"Resolve family ownership"
+],
+
+flow: [
+
+{
+step: 1,
+title: "Ownership Structure",
+
+actions: [
+"View all co-owners",
+"View ownership %",
+"Identify nominee",
+"Detect inheritance risks"
+]
+},
+
+{
+step: 2,
+title: "Ownership Actions",
+
+options: [
+
+{
+type: "add_co_owner",
+label: "Add Co-Owner"
+},
+
+{
+type: "nominee_setup",
+label: "Nominee Setup"
+},
+
+{
+type: "ownership_split",
+label: "Ownership Split"
+},
+
+{
+type: "gift_transfer",
+label: "Gift Transfer"
+},
+
+{
+type: "remove_owner",
+label: "Remove Co-Owner"
+}
+]
+},
+
+{
+step: 3,
+title: "Family Consent Mapping",
+
+checks: [
+"Legal heir mapping",
+"Mandatory approvals",
+"Minor ownership detection",
+"Widow rights protection",
+"Dispute risk alerts"
+]
+}
+]
+},
+
+/******************************************************************************************
+3. LOANS & FINANCING
+******************************************************************************************/
+
+{
+id: "loans_financing",
+title: "Loans & Financing",
+icon: "CreditCard",
+color: "#8B5CF6",
+
+objective:
+"Assess property financing readiness and connect with lenders securely.",
+
+userIntentExamples: [
+"Take loan against property",
+"Check loan eligibility",
+"Refinance property",
+"Get mortgage"
+],
+
+flow: [
+
+{
+step: 1,
+title: "AI Property Readiness Scan",
+
+checks: [
+"Title verification",
+"Litigation scan",
+"Encumbrance check",
+"Ownership confidence",
+"Document completeness"
+]
+},
+
+{
+step: 2,
+title: "Loan Readiness Score™",
+
+outputs: [
+"Estimated eligibility",
+"Risk category",
+"Expected interest range",
+"Recommended lenders"
+]
+},
+
+{
+step: 3,
+title: "Apply to Institutions",
+
+institutions: [
+"Banks",
+"NBFCs",
+"Private lenders",
+"Loan marketplaces"
+]
+}
+]
+},
+
+/******************************************************************************************
+4. RENT / LEASE PROPERTY
+******************************************************************************************/
+
+{
+id: "rent_lease",
+title: "Rent / Lease Property",
+icon: "Home",
+color: "#14B8A6",
+
+objective:
+"Manage rental and leasing workflows for residential and commercial properties.",
+
+flow: [
+
+{
+step: 1,
+title: "Choose Rental Type",
+
+options: [
+"Residential",
+"Commercial",
+"Warehouse",
+"Retail"
+]
+},
+
+{
+step: 2,
+title: "Tenant Verification",
+
+checks: [
+"KYC",
+"Police verification",
+"Employment verification",
+"Credit checks"
+]
+},
+
+{
+step: 3,
+title: "Agreement Governance",
+
+automations: [
+"Digital lease generation",
+"E-sign integration",
+"Deposit escrow",
+"Rent reminders",
+"Renewal alerts"
+]
+}
+]
+},
+
+/******************************************************************************************
+5. LEGAL PROTECTION
+******************************************************************************************/
+
+{
+id: "legal_protection",
+title: "Legal Protection",
+icon: "ShieldAlert",
+color: "#EF4444",
+
+objective:
+"Detect disputes, fraud and legal vulnerabilities before escalation.",
+
+userIntentExamples: [
+"Someone forged documents",
+"Family dispute",
+"Builder fraud",
+"Tenant issue",
+"Illegal possession"
+],
+
+flow: [
+
+{
+step: 1,
+title: "Identify Issue",
+
+issueTypes: [
+"Ownership dispute",
+"Encroachment",
+"Forgery",
+"Illegal possession",
+"Builder fraud",
+"Inheritance conflict"
+]
+},
+
+{
+step: 2,
+title: "AI Legal Review",
+
+outputs: [
+"Risk summary",
+"Document mismatch detection",
+"Recommended legal path",
+"Estimated resolution timeline"
+]
+},
+
+{
+step: 3,
+title: "Escalation Network",
+
+services: [
+"Advocates",
+"Mediators",
+"Lok Adalat",
+"Court workflow support"
+]
+}
+]
+},
+
+/******************************************************************************************
+6. PROPERTY TIMELINE
+******************************************************************************************/
+
+{
+id: "property_timeline",
+title: "Property Timeline",
+icon: "History",
+color: "#F97316",
+
+objective:
+"Maintain permanent lifecycle and governance history of property.",
+
+flow: [
+
+{
+step: 1,
+title: "Property History",
+
+records: [
+"Registration history",
+"Ownership changes",
+"Mutation updates",
+"Loan history",
+"Tenant history",
+"Legal notices",
+"Government approvals"
+]
+},
+
+{
+step: 2,
+title: "Governance Intelligence",
+
+analytics: [
+"Dispute probability",
+"Title confidence score",
+"Fraud alerts",
+"Risk evolution",
+"Ownership timeline"
+]
+}
+]
+}
+],
+
+/******************************************************************************************
+SECONDARY SERVICES
+DO NOT SHOW ON MAIN DASHBOARD
+******************************************************************************************/
+
+secondaryServices: [
+
+"Mutation",
+"Audit Logs",
+"Consent Engine",
+"Escrow",
+"AI Legal",
+"E-Sign",
+"Valuation",
+"Encumbrance Check",
+"OCR Verification",
+"Document Vault",
+"Property Health Score™"
+],
+
+/******************************************************************************************
+DESIGN PRINCIPLES
+******************************************************************************************/
+
+governancePrinciples: [
+
+"User intent first",
+"Legal workflow sequentiality",
+"AI embedded silently",
+"Government compatibility",
+"Fraud prevention by default",
+"Auditability",
+"Family-centric Indian ownership logic",
+"Rural assisted governance support",
+"Bank-grade trust architecture"
+]
+};

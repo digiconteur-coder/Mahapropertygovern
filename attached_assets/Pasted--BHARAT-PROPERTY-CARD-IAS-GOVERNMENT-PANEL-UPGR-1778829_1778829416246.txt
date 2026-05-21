@@ -1,0 +1,536 @@
+# ============================================
+# BHARAT PROPERTY CARD™
+# IAS / GOVERNMENT PANEL UPGRADE METADATA
+# MASTER REPLIT INSTRUCTION BLOCK
+# VERSION: IAS-GRADE GOVERNANCE EDITION
+# ============================================
+
+PROJECT_MODE = "NATIONAL DIGITAL PUBLIC INFRASTRUCTURE"
+
+PRIMARY_POSITIONING = "
+Bharat Property Card (BPC) is NOT a proptech marketplace.
+It is a governance-grade national property execution infrastructure layer
+designed for digitisation, verification, escrow, compliance,
+auditability, dispute reduction, and inter-department coordination.
+"
+
+REPOSITION_ENTIRE_DECK_AS = "
+Digital Public Infrastructure (DPI)
+similar in philosophy to:
+- Aadhaar
+- UPI
+- DigiLocker
+- FASTag
+- ONDC
+"
+
+# ============================================
+# CRITICAL DECK TRANSFORMATION RULES
+# ============================================
+
+REMOVE_OR_DEMOTE = [
+  "startup tone",
+  "aggressive scaling language",
+  "hyper-growth framing",
+  "EBITDA-first narrative",
+  "venture capital style slides",
+  "moat-focused positioning",
+  "disruption language",
+  "replace government systems tone"
+]
+
+PRIORITIZE = [
+  "governance transformation",
+  "citizen trust",
+  "administrative efficiency",
+  "auditability",
+  "interoperability",
+  "judicial relief",
+  "anti-fraud infrastructure",
+  "state revenue intelligence",
+  "workflow standardisation",
+  "public-private governance"
+]
+
+# ============================================
+# REQUIRED NEW MASTER STORY FLOW
+# ============================================
+
+NEW_DECK_FLOW = [
+
+  "SECTION 1 — India’s Property Governance Crisis",
+
+  "1. National Property Governance Crisis",
+  "2. Why Existing Systems Fail",
+  "3. Why This Moment Matters",
+
+  "SECTION 2 — Bharat Property Infrastructure Vision",
+
+  "4. Bharat Property Stack",
+  "5. What BPC IS / IS NOT",
+  "6. Stakeholder Governance Map",
+  "7. Property Intent Engine",
+
+  "SECTION 3 — Core Infrastructure Architecture",
+
+  "8. Bharat Property ID (B-PID)",
+  "9. Workflow Engine",
+  "10. Escrow Infrastructure",
+  "11. Blockchain Governance Layer",
+  "12. Data Privacy Architecture",
+  "13. Event-Driven Property Governance Engine",
+  "14. Security & Cyber Resilience Layer",
+
+  "SECTION 4 — Operational Workflows",
+
+  "15. Legacy Property Digitisation",
+  "16. New Developer Workflow",
+  "17. Inheritance Workflow",
+  "18. Mortgage Workflow",
+  "19. Rental & Lease Workflow",
+  "20. Society / Apartment Transfer Workflow",
+  "21. Court Stay / Litigation Workflow",
+  "22. Dispute Resolution Workflow",
+
+  "SECTION 5 — Government Integration",
+
+  "23. RERA Integration",
+  "24. DILRMP Integration",
+  "25. Registrar Office Integration",
+  "26. CSC / VLE Network Integration",
+  "27. Bank / RBI Ecosystem Integration",
+  "28. GIS & Land Intelligence Layer",
+
+  "SECTION 6 — Governance & Legal Framework",
+
+  "29. Governance Structure",
+  "30. Oversight Committee Structure",
+  "31. Audit Rights & CAG Visibility",
+  "32. Data Sovereignty Model",
+  "33. Source Code Escrow Framework",
+  "34. Draft Operational Governance Framework",
+  "35. Compliance Matrix",
+
+  "SECTION 7 — Economic & Administrative Impact",
+
+  "36. Government Revenue Intelligence",
+  "37. Fraud Reduction Impact",
+  "38. Judicial Burden Reduction",
+  "39. Ease of Doing Business Impact",
+  "40. Financial Inclusion Impact",
+
+  "SECTION 8 — Rollout & Execution",
+
+  "41. Phase-wise Rollout Strategy",
+  "42. KPI Governance Dashboard",
+  "43. Risk & Gap Analysis",
+  "44. Government Partnership Requests",
+
+  "SECTION 9 — Appendix",
+
+  "45. Financial Model",
+  "46. Technical Deep Dive",
+  "47. Blockchain Architecture",
+  "48. Operational Gap Analysis",
+  "49. Draft RERAW Governance Framework",
+  "50. FAQs & Ministerial Objections"
+]
+
+# ============================================
+# REQUIRED NEW SLIDES
+# ============================================
+
+MANDATORY_NEW_SLIDES = [
+
+  "India’s Property Governance Crisis",
+  "Why Existing Systems Failed",
+  "Why Now",
+  "Bharat Property Stack",
+  "What Bharat Property Card Is NOT",
+  "Property Intent Engine",
+  "Permissioned Blockchain Governance",
+  "On-Chain vs Off-Chain Architecture",
+  "Citizen Privacy Visibility Matrix",
+  "Event-Driven Governance Engine",
+  "Complex Real-World Cases",
+  "Urban + Rural Unified Model",
+  "GIS & Geo-Spatial Intelligence",
+  "Government Revenue Intelligence Layer",
+  "Cyber Security & Sovereign Hosting",
+  "Administrative Oversight Structure",
+  "Inheritance & Death Transfer Engine",
+  "Society Transfer Workflow",
+  "Court Stay & Litigation Sync",
+  "Fraud Intelligence Layer",
+  "Multi-Language India Strategy",
+  "Low-Tech / Offline Mode",
+  "Women & Senior Citizen Protection Layer",
+  "Property Health Score System"
+]
+
+# ============================================
+# PROPERTY STACK SLIDE CONTENT
+# ============================================
+
+BHARAT_PROPERTY_STACK = "
+
+Citizen Layer
+↓
+Identity Layer
+↓
+Property Identity Layer (B-PID)
+↓
+Workflow Layer
+↓
+Escrow Layer
+↓
+Verification Layer
+↓
+Blockchain Audit Layer
+↓
+Government Integration Layer
+
+"
+
+# ============================================
+# WHAT BPC IS NOT
+# ============================================
+
+WHAT_BPC_IS_NOT = [
+  "Not a listing marketplace",
+  "Not a speculative real-estate exchange",
+  "Not a broker elimination platform",
+  "Not a parallel land registry",
+  "Not a shadow governance system",
+  "Not a property trading marketplace"
+]
+
+WHAT_BPC_IS = "
+A governance-grade execution,
+verification,
+escrow,
+workflow,
+audit,
+and compliance infrastructure layer.
+"
+
+# ============================================
+# PROPERTY INTENT ENGINE
+# ============================================
+
+PROPERTY_INTENT_ENGINE = [
+
+  "Buy / Sell",
+  "Inheritance",
+  "Mortgage",
+  "Lease",
+  "Rental",
+  "Society Transfer",
+  "Mutation",
+  "Partition",
+  "Court Dispute",
+  "Developer Purchase",
+  "Tax Compliance",
+  "Family Transfer"
+]
+
+# ============================================
+# BLOCKCHAIN GOVERNANCE RULES
+# ============================================
+
+BLOCKCHAIN_MODEL = "
+
+Use PERMISSIONED ENTERPRISE BLOCKCHAIN only.
+
+NO public crypto positioning.
+NO token references.
+NO Web3 terminology.
+
+"
+
+BLOCKCHAIN_NODES = [
+
+  "State Government Node",
+  "Registrar Node",
+  "RERA Node",
+  "Audit Node",
+  "Bank Observer Node",
+  "Judicial Observer Node",
+  "RERAW Operational Node"
+]
+
+ON_CHAIN_DATA = [
+
+  "document hashes",
+  "ownership states",
+  "audit logs",
+  "workflow events",
+  "escrow confirmations"
+]
+
+OFF_CHAIN_DATA = [
+
+  "Aadhaar",
+  "PAN",
+  "raw documents",
+  "financial records",
+  "bank details",
+  "personal identity documents"
+]
+
+# ============================================
+# EVENT DRIVEN GOVERNANCE ENGINE
+# ============================================
+
+PROPERTY_EVENTS = [
+
+  "PROPERTY_CREATED",
+  "OWNER_CHANGED",
+  "DISPUTE_FLAGGED",
+  "MORTGAGE_CREATED",
+  "LEASE_ACTIVATED",
+  "INHERITANCE_INITIATED",
+  "COURT_STAY_APPLIED",
+  "ESCROW_RELEASED",
+  "REGISTRATION_APPROVED",
+  "MUTATION_COMPLETED"
+]
+
+# ============================================
+# REQUIRED REAL WORLD CASE HANDLING
+# ============================================
+
+COMPLEX_CASES = [
+
+  "death of owner",
+  "disputed inheritance",
+  "missing title documents",
+  "active loan",
+  "society NOC refusal",
+  "agricultural conversion pending",
+  "partition disputes",
+  "court injunction",
+  "developer bankruptcy",
+  "multiple claimant conflicts"
+]
+
+# ============================================
+# GOVERNMENT POSITIONING RULES
+# ============================================
+
+NEVER_USE = [
+  "mandatory nationwide immediately",
+  "replace government systems",
+  "government failure narrative",
+  "centralised control language",
+  "crypto narrative",
+  "startup disruption language"
+]
+
+REPLACE_WITH = [
+  "phase-wise adoption framework",
+  "government-notified rollout",
+  "execution infrastructure layer",
+  "interoperability framework",
+  "public-private governance model"
+]
+
+# ============================================
+# GOVERNANCE STRUCTURE
+# ============================================
+
+OVERSIGHT_COMMITTEE = [
+
+  "2 IAS Officers",
+  "1 RBI-Nominated Banking Representative",
+  "1 Judicial Representative",
+  "1 NIC Technical Observer",
+  "1 CERT-In Cyber Security Auditor"
+]
+
+AUDIT_RIGHTS = [
+
+  "CAG audit visibility",
+  "state finance audit access",
+  "monthly governance reports",
+  "transaction log auditability",
+  "escrow transparency"
+]
+
+# ============================================
+# CYBER SECURITY REQUIREMENTS
+# ============================================
+
+SECURITY_REQUIREMENTS = [
+
+  "CERT-In compliance",
+  "India-region sovereign hosting",
+  "zero-trust architecture",
+  "multi-region disaster recovery",
+  "role-based access control",
+  "encryption at rest",
+  "encryption in transit",
+  "insider threat monitoring",
+  "99.9% uptime SLA"
+]
+
+# ============================================
+# RURAL INDIA INTEGRATION
+# ============================================
+
+RURAL_WORKFLOW_KEYWORDS = [
+
+  "khasra",
+  "khatauni",
+  "gram panchayat",
+  "talathi",
+  "village records",
+  "agricultural inheritance",
+  "mutation registers",
+  "land parcel verification"
+]
+
+# ============================================
+# GIS / SATELLITE INTEGRATION
+# ============================================
+
+GIS_LAYER_FEATURES = [
+
+  "geo-tagging",
+  "survey polygons",
+  "satellite overlays",
+  "encroachment intelligence",
+  "urban planning support",
+  "smart city mapping",
+  "disaster recovery planning"
+]
+
+# ============================================
+# FRAUD INTELLIGENCE LAYER
+# ============================================
+
+AI_RISK_ENGINE = [
+
+  "duplicate sale detection",
+  "forged document detection",
+  "suspicious broker activity",
+  "abnormal pricing patterns",
+  "multiple mortgage alerts",
+  "high-risk transaction scoring"
+]
+
+# ============================================
+# WOMEN / SENIOR CITIZEN PROTECTION
+# ============================================
+
+SOCIAL_PROTECTION_LAYER = [
+
+  "widow inheritance assistance",
+  "nominee protection",
+  "senior citizen assisted mode",
+  "family dispute protection",
+  "guided inheritance workflow"
+]
+
+# ============================================
+# MULTI LANGUAGE STRATEGY
+# ============================================
+
+SUPPORTED_LANGUAGES = [
+  "English",
+  "Hindi",
+  "Marathi",
+  "Kannada",
+  "Gujarati"
+]
+
+# ============================================
+# LOW TECH MODE
+# ============================================
+
+LOW_TECH_SUPPORT = [
+
+  "CSC-assisted workflow",
+  "offline sync support",
+  "low bandwidth mode",
+  "SMS status updates",
+  "OTP assisted transactions"
+]
+
+# ============================================
+# PROPERTY HEALTH SCORE
+# ============================================
+
+PROPERTY_HEALTH_SCORE = [
+
+  "legal health",
+  "encumbrance health",
+  "tax compliance health",
+  "documentation health",
+  "transaction readiness"
+]
+
+# ============================================
+# MOVE TO APPENDIX
+# ============================================
+
+MOVE_TO_APPENDIX = [
+
+  "EBITDA projections",
+  "aggressive revenue slides",
+  "competitive moat framing",
+  "startup style TAM slides",
+  "IPO references"
+]
+
+# ============================================
+# NEW CORE NARRATIVE
+# ============================================
+
+MASTER_NARRATIVE = "
+
+India digitised identity through Aadhaar.
+India digitised payments through UPI.
+India digitised documents through DigiLocker.
+
+But India’s largest asset class —
+property ownership and transaction governance —
+still runs on fragmented paperwork,
+manual verification,
+departmental silos,
+and low-trust execution systems.
+
+Bharat Property Card is designed as
+India’s property execution infrastructure layer:
+bringing identity,
+verification,
+escrow,
+workflow orchestration,
+auditability,
+and citizen trust
+into one governance-grade national framework.
+
+"
+
+# ============================================
+# FINAL TONE DIRECTIVE
+# ============================================
+
+FINAL_TONE = "
+
+Write like:
+- Cabinet note
+- IAS policy briefing
+- Digital public infrastructure proposal
+- National governance transformation blueprint
+
+NOT like:
+- startup pitch
+- proptech sales deck
+- venture capital presentation
+
+"
+
+# ============================================
+# END OF MASTER REPLIT BLOCK
+# ============================================

@@ -1,0 +1,247 @@
+Build a full-stack, production-ready web + mobile application called "Bharat Property Card System" with multi-role architecture.
+
+This is NOT a marketplace. It is a national property execution system similar to DigiLocker + Banking apps.
+
+Use the following stack:
+- Frontend: Next.js (React), Tailwind CSS
+- Backend: Node.js with Express OR NestJS
+- Database: PostgreSQL (use Prisma ORM)
+- Auth: JWT + OTP-based login (simulate Aadhaar/PAN login)
+- Cloud-ready architecture (modular services)
+- Follow RBAC (Role-Based Access Control)
+
+-------------------------------------
+🔐 CORE ROLES (VERY IMPORTANT)
+-------------------------------------
+
+1. CITIZEN (Property Owner)
+2. CPF (Broker / Facilitator)
+3. DEVELOPER (Builder)
+4. GOVERNMENT OFFICER (Registrar / Talathi / Authority)
+5. BANK (Financial Institution)
+
+Each role must have separate dashboards, APIs, and permissions.
+
+-------------------------------------
+🧠 CORE SYSTEM ARCHITECTURE
+-------------------------------------
+
+Create a central "RERAW Core Engine" that handles:
+
+- Property ownership logic
+- Transaction workflows
+- Approval pipelines
+- Audit logs
+- AI verification simulation
+- Secure ledger (simulate blockchain-like logging)
+
+-------------------------------------
+🗂️ DATABASE DESIGN (IMPORTANT)
+-------------------------------------
+
+Create the following main tables:
+
+1. Users
+- id
+- name
+- role (citizen, cpf, developer, govt, bank)
+- phone
+- pan
+- aadhaar_hash
+- verified_status
+
+2. Properties
+- id (B-PID)
+- type (flat, land, commercial)
+- location
+- value
+- status (verified, under_review, disputed)
+- owner_id
+
+3. PropertyOwnership
+- id
+- property_id
+- user_id
+- ownership_percent
+
+4. Documents
+- id
+- property_id
+- doc_type
+- file_url
+- verified_status
+
+5. Projects (Developer)
+- id (B-BID)
+- developer_id
+- name
+- location
+- approval_status
+
+6. Units
+- id (Unit-ID)
+- project_id
+- type
+- size
+- price
+- status (available, booked, sold)
+- owner_id
+
+7. Transactions
+- id
+- property_id
+- buyer_id
+- seller_id
+- status (initiated, verifying, approved, completed)
+- escrow_status
+
+8. Approvals
+- id
+- transaction_id
+- govt_officer_id
+- status
+
+9. Disputes
+- id
+- property_id
+- case_details
+- status
+
+10. Loans
+- id
+- property_id
+- bank_id
+- amount
+- status
+
+11. AuditLogs
+- id
+- action
+- user_id
+- timestamp
+- metadata
+
+-------------------------------------
+📱 FRONTEND MODULES
+-------------------------------------
+
+-------------------------------------
+1. CITIZEN APP
+-------------------------------------
+
+Screens:
+- Login (OTP simulation)
+- Dashboard (total assets, alerts)
+- My Properties (list view)
+- Property Detail:
+  - Ownership
+  - Documents
+  - Legal status
+  - Loan status
+  - Activity logs
+- Actions:
+  - Transfer property
+  - Apply loan
+  - Add co-owner
+  - Raise dispute
+
+-------------------------------------
+2. CPF BROKER APP
+-------------------------------------
+
+Screens:
+- Dashboard (leads, deals, earnings)
+- Client management
+- Property search (developer + resale)
+- Create transaction
+- Commission tracking
+
+-------------------------------------
+3. DEVELOPER PORTAL
+-------------------------------------
+
+Screens:
+- Dashboard (projects, units sold)
+- Create project (generate B-BID)
+- Add units (Unit-ID generation)
+- Manage inventory
+- Assign CPF brokers
+- Track buyers
+
+-------------------------------------
+4. GOVERNMENT PORTAL
+-------------------------------------
+
+Screens:
+- Login (role-based)
+- Property master view
+- Transaction approvals
+- Document verification panel
+- Dispute control (freeze property)
+- Activity logs
+
+-------------------------------------
+5. BANK PANEL
+-------------------------------------
+
+Screens:
+- Loan approval dashboard
+- Escrow management
+- Property financial tagging
+
+-------------------------------------
+⚙️ BACKEND FEATURES
+-------------------------------------
+
+- Role-based middleware (RBAC)
+- Transaction workflow engine:
+  INITIATE → VERIFY → APPROVE → COMPLETE
+
+- Simulate AI verification:
+  - Randomly flag documents
+  - Risk scoring (green/yellow/red)
+
+- Escrow simulation:
+  - Hold funds until approval
+
+- Secure audit logs:
+  - Log every action
+
+-------------------------------------
+🔐 SECURITY
+-------------------------------------
+
+- JWT authentication
+- Role-based route protection
+- Input validation
+- Audit logging
+
+-------------------------------------
+🎯 FINAL OUTPUT REQUIREMENTS
+-------------------------------------
+
+- Fully functional UI for all roles
+- Clean dashboard design
+- API routes for all operations
+- Seed demo data:
+  - 3 users (citizen, cpf, govt)
+  - 2 properties
+  - 1 developer project
+
+- Include README with:
+  - Setup steps
+  - Role login credentials
+  - System explanation
+
+-------------------------------------
+IMPORTANT
+-------------------------------------
+
+- Keep UI minimal and professional (like banking app)
+- DO NOT build marketplace features
+- Focus on workflow, ownership, and control
+- Make it demo-ready for government presentation
+
+-------------------------------------
+
+End of build

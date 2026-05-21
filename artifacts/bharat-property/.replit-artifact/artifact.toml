@@ -1,0 +1,26 @@
+kind = "mobile"
+previewPath = "/"
+title = "Bharat Property Card System"
+version = "1.0.0"
+id = "artifacts/bharat-property"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+name = "expo"
+paths = [ "/" ]
+localPort = 24533
+
+[services.development]
+run = "pnpm --filter @workspace/bharat-property run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/bharat-property", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/bharat-property", "run", "serve" ]
+
+[services.env]
+PORT = "24533"
+BASE_PATH = "/"

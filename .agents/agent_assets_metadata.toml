@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "e_JEhAgcq0DTpBB5oHM1G"
+uri = "file://artifacts/bharat-property/assets/images/icon.png"
+type = "image"
+title = "bharat property card icon"
